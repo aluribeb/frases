@@ -1,0 +1,90 @@
+@import '../../index.css';
+
+.services__container{
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 1.875rem;
+}
+.services__card{
+    text-align: center;
+    padding: 1.875rem;
+    border-radius: 20px;
+    background-color: rgb(208, 208, 208);
+    transition: all 0.3s ease-in-out;
+}
+.services__card:hover{
+    transform: translateY(-10px);
+}
+.services__card:nth-child(1) {
+    background-color: rgb(108,108,229);
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.3);
+    color:#f8f9fa
+}
+.services__card:nth-child(2) {
+    background-color: rgb(249,108,229);
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.3);
+    color:#f8f9fa
+}
+.services__card:nth-child(3) {
+        color:#f8f9fa;
+    background-color: rgb(230, 100, 25);
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.3);
+}
+.services__img{
+    margin-bottom: 1.25rem;
+    width: 100px;
+}
+
+.services__title{
+    font-size: var(--h3-font-size);
+    margin-bottom: 1rem;
+    color:#f8f9fa
+}
+.services__title:nth-child(1) {
+    color:#f8f9fa;
+}
+
+@media (max-width: 767px) {
+    .services__container{
+        grid-template-columns: repeat(1,1fr);
+        row-gap: 2rem;
+    }
+    .services__card{
+        text-align: center;
+        padding: 1.875rem;
+        border-radius: 20px;
+        background-color: rgb(208, 208, 208);
+        transition: all 0.3s ease-in-out;
+        width: 20rem;
+    }
+    .services__card:hover{
+        transform: translateY(-10px);
+    }
+    .services__card:nth-child(1) {
+        background-color: rgb(108,108,229);
+        box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.3);
+        color:#f8f9fa
+    }
+    .services__card:nth-child(2) {
+        background-color: rgb(249,108,229);
+        box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.3);
+        color:#f8f9fa
+    }
+    .services__card:nth-child(3) {
+            color:#f8f9fa;
+        background-color: rgb(230, 100, 25);
+        box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.3);
+    }
+    .services__img{
+        margin-bottom: 1.25rem;
+        width: 100px;
+    }
+    
+    .services__title{
+        font-size: var(--h3-font-size);
+        margin-bottom: 1rem;
+        color:#f8f9fa
+    }
+    .services__title:nth-child(1) {
+        color:#f8f9fa;
+    } 
+}

@@ -1,0 +1,195 @@
+.home__img{
+    margin-top: 5rem;
+width: 14rem;
+border-radius: 50%;
+margin-bottom: 1.5rem;
+}
+
+.home__container{
+    position: relative;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.home__name{
+    font-size: var(--h1-font-size);
+    font-weight: var(--font-bold);
+    margin-bottom: 0.5rem;
+}
+
+.home__socials{
+    display: flex;
+    justify-content: center;
+    column-gap: 1.74rem;
+    margin: 1.5rem 0;
+}
+
+.home__social-link{
+    color: var(--title-color);
+    transition: .3s;
+    font-size: 1.5rem;
+}
+
+.home__social-link:hover{
+    color: var(--first-color)
+}
+.btn {
+margin-top: 4rem;
+}
+.scroll__down{
+    bottom: 2.5rem;
+    left: 0;
+    width: 100%;
+    margin-left: 10px;
+    margin-top: 4rem;
+    margin-bottom: -2rem;
+}
+
+.home__scroll-name{
+
+    font-size: var(--small-font-size);
+}
+
+.mouse {
+    border: 2px solid black;
+    display: block;
+    height: 1.6rem;
+    width: 1.25rem;
+    margin: auto;
+    margin-top: .75rem;
+    border-radius: 1rem;
+    position: relative;
+}
+
+@keyframes ani-mouse {
+    0%{
+        top: 29%;
+    }
+    15%{
+        top: 50%;
+    }
+    50%{
+        top: 75%;
+    }
+    100%{
+        top: 29%;
+    }
+
+}
+
+.wheel{
+    background-color: black;
+    border-radius: 100%;
+    width: 0.25em;
+    height: 0.25em;
+    position: absolute;
+    top: .5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: ani-mouse 2s linear infinite;
+}
+
+.shapes{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+.shape{
+    position: absolute;
+}
+.s10{
+    left: 25%;
+    top: 25%;
+}
+.s2{
+    left: 85%;
+    top: 20%;
+}
+.s3{
+    left: 75%;
+    top: 10%;
+}
+.s4{
+    left: 80%;
+    top: 80%;
+}
+.s5{
+    left: 50%;
+    top: 45%;
+}
+.s6{
+    left: 70%;
+    top: 70%;
+}
+.s7{
+    left: 10%;
+    top: 65%;
+}
+.s8{
+    left: 30%;
+    top: 85%;
+}
+.s9{
+    left: 20%;
+    top: 55%;
+}
+.s1{
+    left: 10%;
+    top: 40%;
+}
+.s11{
+    left: 10%;
+    top: 7%;
+}
+
+@media (max-width: 765px) {
+.s10{
+    left: 5%;
+    top: 35%;
+}
+.s2{
+    left: 80%;
+    top: 20%;
+}
+.s3{
+    left: 75%;
+    top: 10%;
+}
+.s4{
+    left: 80%;
+    top: 80%;
+}
+.s5{
+    left: 50%;
+    top: 45%;
+}
+.s6{
+    left: 70%;
+    top: 70%;
+}
+.s7{
+    left: 10%;
+    top: 65%;
+}
+.s8{
+    left: 30%;
+    top: 85%;
+}
+.s9{
+    left: 20%;
+    top: 55%;
+}
+.s1{
+    left: 20%;
+    top: 40%;
+}
+.s11{
+    left: 10%;
+    top: 7%;
+}
+}

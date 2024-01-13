@@ -1,0 +1,13 @@
+.main {
+  margin-left: 110px;
+}
+@media (max-width: 767px) {
+ 
+    .aside {
+      display: none !important;
+    }
+    .main {
+      margin-left: 0;
+    }
+    
+  }

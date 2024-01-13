@@ -1,0 +1,102 @@
+@import '../../index.css';
+
+
+.about__img {
+    width: 15rem;
+    border-radius: 50%;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    padding-right: 1rem;
+}
+.about__container{
+    grid-template-columns: 3fr 9fr;
+    column-gap: 1.875rem;
+    background-color: rgba(128, 128, 128, 0.37) ;
+    padding: 1rem;
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 25px;
+    margin: 2rem;
+}
+.skills__data{
+    padding: 1.875rem;
+    gap: -2;
+}
+.about__description{
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 3rem;
+    margin-bottom: ;
+    text-align: justify;
+
+}
+.btn {
+    margin-left: 1.18rem;
+    margin-top: 2rem;
+    margin-bottom: -1rem;
+}
+
+.about__boxes{
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 4.25rem;
+}
+.about__box{
+    display: flex;
+    margin-top: 2.5rem;
+}
+.about__icon{
+    font-size: var(--h1-font-size);
+    color: #7c7c92;
+    margin-left: 2rem;
+
+}
+.about__title{
+    font-size: 1.875rem;
+}
+.skills__titles{
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+@media (max-width: 767px) {
+    /* Reglas de estilo para dispositivos móviles */
+
+    .about__img {
+        margin-left: 15px;
+    }
+    .about__container{
+        grid-template-columns: 1fr;
+        padding-left: 2rem;
+        width: 20rem;
+        margin-left: 0;
+    }
+    .btn{
+        margin-bottom: 2rem;
+    }
+    .skills__name{
+        margin-left: -1.2rem;
+    }
+    .skills__titles {
+    margin-top: -1rem;
+    }
+
+    .about__boxes{
+        grid-template-columns: repeat(2,1fr);
+        margin-top: 4.25rem;
+
+    }
+    .about__icon{
+        font-size: 2rem;
+        margin-left: 0;
+        padding-right: 10px;
+    
+    }
+    .about__title{
+        font-size: 2.5rem;
+    }
+    .about__subtitle{
+        font-size: 1rem;
+    }
+    .skills__number{
+        padding-bottom: -5rem;
+    }
+}
