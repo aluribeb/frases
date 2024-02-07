@@ -21,7 +21,6 @@ const Portfolio = () => {
         <span className="work__item" onClick={() => filterItem("API")}>API / Webhooks</span>
         <span className="work__item" onClick={() => filterItem("FrontEnd")}>Front - End</span>
         <span className="work__item" onClick={() => filterItem("WordPress")}>WordPress</span>
-        <span className="work__item" onClick={() => filterItem("Sales")}>Sales / Marketing </span>
       </div>
 
       <div className="work__container grid">

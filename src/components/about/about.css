@@ -6,6 +6,7 @@
     border-radius: 50%;
     margin-left: 2rem;
     margin-top: 1rem;
+    margin-bottom: 2rem;
     padding-right: 1rem;
 }
 .about__container{
@@ -17,10 +18,19 @@
     border-radius: 25px;
     margin: 2rem;
 }
+.skills__title{
+    margin-top: 3em;
+    display: flex;
+    justify-content: center;
+    margin-left: -15em;
+}
 .skills__data{
+    display: flex;
     padding: 1.875rem;
+    margin-left: -10em;
     gap: -2;
 }
+
 .about__description{
     padding-top: 2rem;
     padding-left: 1rem;
@@ -55,10 +65,77 @@
 .skills__titles{
     margin-left: 2rem;
     margin-top: 2rem;
+    position: relative;
+    transition: background-color 0.3s ease-in-out;
 }
+.skills__name{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 70%;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.3s;
+}
+.skills__img__html{
+    width: 5em;
+    transition: transform 0.3s ease-in-out;
+}
+.skills__img__html:hover{
+    filter: brightness(50%);
+}
+.skills__img__html:hover + .skills__name:first-of-type {
+    background-color: transparent;
+    opacity: 1;
+    visibility: visible;
+    color: white;
+    text-align: center;
+    left: 25%;
+    cursor: pointer;
+}
+.skills__data .skills__titles:nth-child(2) .skills__name {
+    left: 12%;
+}
+.skills__data .skills__titles:nth-child(3) .skills__name {
+    left: 0%;
+}
+.skills__data .skills__titles:nth-child(4) .skills__name {
+    left: 0%;
+    
+}
+.skills__data .skills__titles:nth-child(5) .skills__name {
+    top: 60%;
+    left: 13%;
+}
+.skills__data .skills__titles:nth-child(5) .skills__img__html {
+    margin-top: 8px;
+}
+.data__design{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -25rem;
+}
+.skills__name2{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 70%;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.3s;
+}
+.skills__img__html:hover + .skills__name2:first-of-type {
+    background-color: transparent;
+    opacity: 1;
+    visibility: visible;
+    color: white;
+    text-align: center;
+    left: -5%;
+    cursor: pointer;
 
+}
 @media (max-width: 767px) {
-    /* Reglas de estilo para dispositivos móviles */
 
     .about__img {
         margin-left: 15px;

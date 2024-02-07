@@ -9,9 +9,9 @@ const Menu = [
     {
       id: 1,
       image: Work1,
-      title: "Academlo Store",
+      title: "PokéDex",
       category: "FrontEnd",
-      url: '',
+      url: 'https://aluribeb-pokemon.netlify.app/',
     },
     {
       id: 2,
@@ -41,7 +41,7 @@ const Menu = [
       image: Work5,
       title: "My Users CRUD",
       category: "API",
-      url: '',
+      url: 'https://userscrud-aluribeb.netlify.app/',
     },
     ,
     {

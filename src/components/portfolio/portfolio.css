@@ -43,7 +43,7 @@
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     position: absolute;
-    top: 0;
+    top: -2px;
     left: 1.5rem;
     font-size: 1.25rem;
     display: inline-block;
