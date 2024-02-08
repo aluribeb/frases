@@ -126,4 +126,8 @@
         transition: 0.3s;
         opacity: 0;
     }
+    .work__title{
+        top: 3.5em;
+        left: 1.8em;
+    }
 }

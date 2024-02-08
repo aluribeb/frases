@@ -189,4 +189,7 @@
     .skills__title{
         margin-left: -7%;
     }
+    .skills__name{
+        margin-left: 0%;
+    }
 }

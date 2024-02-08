@@ -9,7 +9,7 @@ const Menu = [
     {
       id: 1,
       image: Work1,
-      title: "PokéDex",
+      title: "POKÉDEX",
       category: "FrontEnd",
       url: 'https://aluribeb-pokemon.netlify.app/',
     },
@@ -31,7 +31,7 @@ const Menu = [
     {
       id: 4,
       image: Work4,
-      title: "Fortune Cookie",
+      title: "FORTUNE COOKIE",
       category: "FrontEnd",
       url: 'https://teal-centaur-9590d1.netlify.app/',
     },
@@ -39,7 +39,7 @@ const Menu = [
     {
       id: 5,
       image: Work5,
-      title: "My Users CRUD",
+      title: "USERS CRUD",
       category: "API",
       url: 'https://userscrud-aluribeb.netlify.app/',
     },
