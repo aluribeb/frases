@@ -149,13 +149,23 @@
     .btn{
         margin-bottom: 2rem;
     }
+    .skills__data{
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: -2.8em;
+        margin-right: -4em;
+        margin-top: 1em;
+        gap: 2em;
+    }
     .skills__name{
         margin-left: -1.2rem;
     }
     .skills__titles {
     margin-top: -1rem;
     }
-
+    .data__design{
+        margin-left: -6em;
+    }
     .about__boxes{
         grid-template-columns: repeat(2,1fr);
         margin-top: 4.25rem;
@@ -175,5 +185,8 @@
     }
     .skills__number{
         padding-bottom: -5rem;
+    }
+    .skills__title{
+        margin-left: -7%;
     }
 }

@@ -2,6 +2,14 @@ import React from 'react'
 import './contact.css'
 
 const Contacts = () => {
+  const mailTo = {
+    protocol: 'mailto:',
+    email: 'luisauribeblum@gmail.com',
+    subject: 'I was in your portfolio',
+  }
+
+  const mailToLink = `${mailTo.protocol}${mailTo.email}?subject=${encodeURIComponent(mailTo.subject)}`
+
   return (
     <>
     <section className="contact container section" id="contact">
@@ -10,7 +18,7 @@ const Contacts = () => {
         <div className="contact__info">
           <h3 className="contact__title">Let's talk about everything</h3>
           <p className="contact__details">Don't like forms? Send me an email! :) </p>
-          <button onClick={() => { window.open('mailto:luisauribeblum@gmail.com?subject=I%20was%20in%20your%20portfolio'); }} className='contact__email'  >Send Email</button>
+          <a href={`mailto:luisauribeblum@gmail.com?subject=I%20was%20in%20your%20Portfolio`} className="contact__email"> Send Email</a>
 
         </div>
         <form action="" className="contact__form">
